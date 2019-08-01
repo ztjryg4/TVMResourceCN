@@ -3,7 +3,6 @@ Codes, experience and docs concerning TVM.
 
 **关于TVM**  
 TVM是由陈天奇团队推出的深度学习优化框架，是一种将深度学习工作负载部署到硬件的端到端IR（中间表示）堆栈。它使得开发人员能够快速、轻松地将深度学习的能力部署和优化到大量硬件设备上。  
-
 TVM GitHub repo: <https://github.com/dmlc/tvm>  
 
 **关于本仓库**  
