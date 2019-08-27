@@ -13,3 +13,8 @@ TVM GitHub repo: <https://github.com/dmlc/tvm>
 黄晓峰老师（导师）  
 章天杰 [Blog](http://imztj.cn) [GitHub](https://github.com/ztjryg4/)  
 倪骏龙 [GitHub](https://github.com/zh-Spike)  
+
+**本仓库的内容是如何组织的：**  
+
+01.论文
+02.<计划中>
