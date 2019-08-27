@@ -1,7 +1,7 @@
 ## 论文  
 
 标题 | 作者 | 备注  
-- | - | -  
+| - | - | - | 
 [TVM: An Automated End-to-End Optimizing Compiler for Deep Learning](papers/TVM%20An%20Automated%20End-to-End%20Optimizing%20Compiler%20for%20Deep%20Learning.pdf) | 陈天奇等 |  
 [A Hardware-Software Blueprint for Flexible Deep Learning Specialization](https://github.com/ztjryg4/TVMinHDU1106/blob/master/01.论文/papers/A%20Hardware-Software%20Blueprint%20for%20Flexible%20Deep%20Learning%20Specialization.pdf) | Thierry Moreau, 陈天奇等 | VTA  
 [Relay: A New IR for Machine Learning Frameworks](https://github.com/ztjryg4/TVMinHDU1106/blob/master/01.%E8%AE%BA%E6%96%87/papers/Relay%20A%20New%20IR%20for%20Machine%20Learning%20Frameworks.pdf) |  |  
