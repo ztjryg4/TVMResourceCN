@@ -1,0 +1,7 @@
+/home/ztj/tvmtt/darknet/0.jpg
+/home/ztj/tvmtt/darknet/1.jpg
+/home/ztj/tvmtt/darknet/2.jpg
+/home/ztj/tvmtt/darknet/3.jpg
+/home/ztj/tvmtt/darknet/4.jpg
+/home/ztj/tvmtt/darknet/5.jpg
+/home/ztj/tvmtt/darknet/6.jpg

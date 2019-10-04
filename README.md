@@ -16,5 +16,6 @@ TVM GitHub repo: <https://github.com/dmlc/tvm>
 
 **本仓库的内容是如何组织的：**  
 
-01.[论文](01.%E8%AE%BA%E6%96%87)  
-02.[测试代码]()  
+01.[论文 Papers](01.%E8%AE%BA%E6%96%87)  
+02.[测试代码 Codes]()  
+03.[博客 Blogs]()
