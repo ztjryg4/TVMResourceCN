@@ -24,9 +24,6 @@
 | [自动生成低精度深度学习运算符](https://blog.csdn.net/yiran103/article/details/88067536) | 图波列夫 | 对官方博客[Automating Generation of Low Precision Deep Learning Operators](https://tvm.apache.org/2018/12/18/lowprecision-conv)的翻译 |  
 | [Tvm（1） SSD 模型](https://blog.csdn.net/yiweibian/article/details/80840237) | abner15 |  |  
 | [TVM: End-to-End Optimization Stack for Deep Learning](https://blog.csdn.net/Katherine_hsr/article/details/81868640) | 诗蕊 | 对官方博客[TVM: An End to End IR Stack for Deploying Deep Learning Workloads on Hardware Platforms](https://tvm.apache.org/2017/08/17/tvm-release-announcement)的翻译 |  
-| []() |  |  |  
-| []() |  |  |  
-| []() |  |  |  
 
 ## 知乎内容  
 ### 专栏&话题  
