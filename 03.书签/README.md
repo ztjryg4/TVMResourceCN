@@ -6,13 +6,13 @@
 
 | 内容 | URL | 说明 |
 | - | - | - |
-| TVM 官网 | https://tvm.ai/ | |
-| TVM Blog | https://tvm.ai/blog | TVM 官方博客 |
-| TVM Documentation | https://docs.tvm.ai/ | TVM 官方文档 |
-| TVM Conference | https://sampl.cs.washington.edu/tvmconf/ | TVM 学术会议相关信息 |
-| TVM Discuss | https://discuss.tvm.ai/ | TVM 官方讨论社区 |
-| TVM Tutorials | https://docs.tvm.ai/tutorials/ | TVM 官方示例，提供包括部署深度学习模型、自动调优等等方面的示例。 |
-| TVM GitHub repo | https://github.com/dmlc/tvm/ |  |
+| TVM 官网 | <https://tvm.ai/> | |
+| TVM Blog | <https://tvm.ai/blog> | TVM 官方博客 |
+| TVM Documentation | <https://docs.tvm.ai/> | TVM 官方文档 |
+| TVM Conference | <https://sampl.cs.washington.edu/tvmconf/> | TVM 学术会议相关信息 |
+| TVM Discuss | <https://discuss.tvm.ai/> | TVM 官方讨论社区 |
+| TVM Tutorials | <https://docs.tvm.ai/tutorials/> | TVM 官方示例，提供包括部署深度学习模型、自动调优等等方面的示例。 |
+| TVM GitHub repo | <https://github.com/dmlc/tvm/> |  |
 
 ## 博客文章
 
@@ -27,14 +27,18 @@
 | [自动生成低精度深度学习运算符](https://blog.csdn.net/yiran103/article/details/88067536) | 图波列夫 | 对官方博客 [Automating Generation of Low Precision Deep Learning Operators](https://tvm.apache.org/2018/12/18/lowprecision-conv) 的翻译 |
 | [Tvm（1） SSD 模型](https://blog.csdn.net/yiweibian/article/details/80840237) | abner15 |  |
 | [TVM: End-to-End Optimization Stack for Deep Learning](https://blog.csdn.net/Katherine_hsr/article/details/81868640) | 诗蕊 | 对官方博客 [TVM: An End to End IR Stack for Deploying Deep Learning Workloads on Hardware Platforms](https://tvm.apache.org/2017/08/17/tvm-release-announcement) 的翻译 |
+| [Ubuntu 下 TVM 的编译安装](http://imztj.cn/?p=3012) | 章天杰 |  |
+| [TVM 部署 TensorFlow 模型](http://imztj.cn/?p=3020) | 章天杰 |  |
+| [TVM 上部署 YOLO-DarkNet 及单图性能对比](http://imztj.cn/?p=3023) | 章天杰 |  |
+| [TVM 上 YOLO-DarkNet 多图性能对比](http://imztj.cn/?p=3041) | 章天杰 |  |
 
 ## 知乎内容
 
 ### 专栏 & 话题
 
-TVM 知乎专栏地址：https://zhuanlan.zhihu.com/tvmai
+TVM 知乎专栏地址：<https://zhuanlan.zhihu.com/tvmai>
 
-TVM 知乎话题地址：https://www.zhihu.com/topic/20179059/hot
+TVM 知乎话题地址：<https://www.zhihu.com/topic/20179059/hot>
 
 ### 提问 / 回答 & 文章
 
@@ -47,6 +51,7 @@ TVM 知乎话题地址：https://www.zhihu.com/topic/20179059/hot
 | [也谈 TVM 和深度学习编译器](https://zhuanlan.zhihu.com/p/87664838) | HONG |  |
 
 ## 视频
+
 | 内容 | 作者 / 来源 | 说明 |
 | - | - | - |
 | [TVM and Deep Learning Compilation Conference 2019](https://www.youtube.com/playlist?list=PLTPQEx-31JXjA2ZmvYT5s0RqDXFXTSjyL) | Paul G. Allen School |  |
