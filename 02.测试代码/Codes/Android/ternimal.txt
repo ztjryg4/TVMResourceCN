@@ -1,0 +1,767 @@
+root@Dev:~# adb shell /data/local/tmp/benchmark_model --graph=/data/local/tmp/mroot@Dev:~# adb shell /data/local/tmp/benchmark_model --graph=/data/local/tmp/mobilenet_v1_1.0_224_quant.tflite  --num_threads=1
+STARTING!
+Duplicate flags: num_threads
+Min num runs: [50]
+Min runs duration (seconds): [1]
+Max runs duration (seconds): [150]
+Inter-run delay (seconds): [-1]
+Num threads: [1]
+Benchmark name: []
+Output prefix: []
+Min warmup runs: [1]
+Min warmup runs duration (seconds): [0.5]
+Graph: [/data/local/tmp/mobilenet_v1_1.0_224_quant.tflite]
+Input layers: []
+Input shapes: []
+Input value ranges: []
+Input layer values files: []
+Use legacy nnapi : [0]
+Allow fp16 : [0]
+Require full delegation : [0]
+Enable op profiling: [0]
+Max profiling buffer entries: [1024]
+CSV File to export profiling data to: []
+Enable platform-wide tracing: [0]
+#threads used for CPU inference: [1]
+Max number of delegated partitions : [0]
+Min nodes per partition : [0]
+External delegate path : []
+External delegate options : []
+Use gpu : [0]
+Allow lower precision in gpu : [1]
+Enable running quant models in gpu : [1]
+GPU backend : []
+Use Hexagon : [0]
+Hexagon lib path : [/data/local/tmp]
+Hexagon Profiling : [0]
+Use nnapi : [0]
+Use xnnpack : [0]
+Loaded model /data/local/tmp/mobilenet_v1_1.0_224_quant.tflite
+INFO: Initialized TensorFlow Lite runtime.
+The input model file size (MB): 4.27635
+Initialized session in 2.269ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=10 first=54239 curr=51201 min=51088 max=54239 avg=51721.7 std=891
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=50 first=51274 curr=51179 min=50917 max=51751 avg=51304.7 std=223
+
+Inference timings in us: Init: 2269, First inference: 54239, Warmup (avg): 51721.7, Inference (avg): 51304.7
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Peak memory footprint (MB): init=1.29688 overall=7.97656
+root@Dev:~# adb shell /data/local/tmp/benchmark_model --graph=/data/local/tmp/mobilenet_v1_1.0_224_quant.tflite  --num_threads=1
+STARTING!
+Duplicate flags: num_threads
+Min num runs: [50]
+Min runs duration (seconds): [1]
+Max runs duration (seconds): [150]
+Inter-run delay (seconds): [-1]
+Num threads: [1]
+Benchmark name: []
+Output prefix: []
+Min warmup runs: [1]
+Min warmup runs duration (seconds): [0.5]
+Graph: [/data/local/tmp/mobilenet_v1_1.0_224_quant.tflite]
+Input layers: []
+Input shapes: []
+Input value ranges: []
+Input layer values files: []
+Use legacy nnapi : [0]
+Allow fp16 : [0]
+Require full delegation : [0]
+Enable op profiling: [0]
+Max profiling buffer entries: [1024]
+CSV File to export profiling data to: []
+Enable platform-wide tracing: [0]
+#threads used for CPU inference: [1]
+Max number of delegated partitions : [0]
+Min nodes per partition : [0]
+External delegate path : []
+External delegate options : []
+Use gpu : [0]
+Allow lower precision in gpu : [1]
+Enable running quant models in gpu : [1]
+GPU backend : []
+Use Hexagon : [0]
+Hexagon lib path : [/data/local/tmp]
+Hexagon Profiling : [0]
+Use nnapi : [0]
+Use xnnpack : [0]
+Loaded model /data/local/tmp/mobilenet_v1_1.0_224_quant.tflite
+The input model file size (MB): 4.27635
+Initialized session in 2.521ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: Initialized TensorFlow Lite runtime.
+count=10 first=53558 curr=51191 min=51191 max=53558 avg=51749.9 std=660
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=50 first=50855 curr=51537 min=50741 max=51750 avg=51202.9 std=264
+
+Inference timings in us: Init: 2521, First inference: 53558, Warmup (avg): 51749.9, Inference (avg): 51202.9
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Peak memory footprint (MB): init=1.23047 overall=7.90234
+root@Dev:~# adb shell /data/local/tmp/benchmark_model --graph=/data/local/tmp/mobilenet_v1_1.0_224_quant.tflite  --num_threads=4
+STARTING!
+Duplicate flags: num_threads
+Min num runs: [50]
+Min runs duration (seconds): [1]
+Max runs duration (seconds): [150]
+Inter-run delay (seconds): [-1]
+Num threads: [4]
+Benchmark name: []
+Output prefix: []
+Min warmup runs: [1]
+Min warmup runs duration (seconds): [0.5]
+Graph: [/data/local/tmp/mobilenet_v1_1.0_224_quant.tflite]
+Input layers: []
+Input shapes: []
+Input value ranges: []
+Input layer values files: []
+Use legacy nnapi : [0]
+Allow fp16 : [0]
+Require full delegation : [0]
+Enable op profiling: [0]
+Max profiling buffer entries: [1024]
+CSV File to export profiling data to: []
+Enable platform-wide tracing: [0]
+#threads used for CPU inference: [4]
+Max number of delegated partitions : [0]
+Min nodes per partition : [0]
+External delegate path : []
+External delegate options : []
+Use gpu : [0]
+Allow lower precision in gpu : [1]
+Enable running quant models in gpu : [1]
+GPU backend : []
+Use Hexagon : [0]
+Hexagon lib path : [/data/local/tmp]
+Hexagon Profiling : [0]
+Use nnapi : [0]
+Use xnnpack : [0]
+Loaded model /data/local/tmp/mobilenet_v1_1.0_224_quant.tflite
+The input model file size (MB): 4.27635
+Initialized session in 1.736ms.
+INFO: Initialized TensorFlow Lite runtime.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=32 first=51802 curr=14610 min=14439 max=51802 avg=15894.2 std=6498
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=68 first=14709 curr=15164 min=14307 max=15293 avg=14798.5 std=253
+
+Inference timings in us: Init: 1736, First inference: 51802, Warmup (avg): 15894.2, Inference (avg): 14798.5
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Peak memory footprint (MB): init=1.35938 overall=4.44141
+root@Dev:~# adb push /home/ni/tensorflow/ /data/local/tmp
+ACKNOWLEDGMENTS                    .bazelrc                           CODEOWNERS                         .gitignore                         models.BUILD                       tensorflow/
+ADOPTERS.md                        bazel-tensorflow/                  configure                          ISSUES.md                          .pylintrc                          .tf_configure.bazelrc
+arm_compiler.BUILD                 bazel-testlogs/                    configure.cmd                      ISSUE_TEMPLATE.md                  README.md                          third_party/
+AUTHORS                            .bazelversion                      configure.py                       LICENSE                            RELEASE.md                         tools/
+bazel-bin/                         BUILD                              CONTRIBUTING.md                    mobilenet_v1_1.0_224_quant.tflite  SECURITY.md                        WORKSPACE
+bazel-out/                         CODE_OF_CONDUCT.md                 .github/                           mobilenet_v1_1.0_224.tflite        squeezenet.tflite                  
+root@Dev:~# adb push /home/ni/tensorflow/ /data/local/tmp
+ACKNOWLEDGMENTS                    .bazelrc                           CODEOWNERS                         .gitignore                         models.BUILD                       tensorflow/
+ADOPTERS.md                        bazel-tensorflow/                  configure                          ISSUES.md                          .pylintrc                          .tf_configure.bazelrc
+arm_compiler.BUILD                 bazel-testlogs/                    configure.cmd                      ISSUE_TEMPLATE.md                  README.md                          third_party/
+AUTHORS                            .bazelversion                      configure.py                       LICENSE                            RELEASE.md                         tools/
+bazel-bin/                         BUILD                              CONTRIBUTING.md                    mobilenet_v1_1.0_224_quant.tflite  SECURITY.md                        WORKSPACE
+bazel-out/                         CODE_OF_CONDUCT.md                 .github/                           mobilenet_v1_1.0_224.tflite        squeezenet.tflite                  
+root@Dev:~# adb push /home/ni/tensorflow/mobilenet_v1_1.0_224.tflite /data/local/tmp
+/home/ni/tensorflow/mobilenet_v1_1.0_224.tflite: 1 file pushed. 23.5 MB/s (16901128 bytes in 0.687s)
+root@Dev:~# adb push /home/ni/tensorflow/squeezenet.tflite /data/local/tmp
+/home/ni/tensorflow/squeezenet.tflite: 1 file pushed. 21.2 MB/s (5006664 bytes in 0.225s)
+root@Dev:~# adb shell /data/local/tmp/benchmark_model --graph=/data/local/tmp/moroot@Dev:~# adb shell /data/local/tmp/benchmark_model --graph=/data/local/tmp/mobilenet_v1_1.0_224.tflite  --num_threads=1
+STARTING!
+Duplicate flags: num_threads
+Min num runs: [50]
+Min runs duration (seconds): [1]
+Max runs duration (seconds): [150]
+Inter-run delay (seconds): [-1]
+Num threads: [1]
+Benchmark name: []
+Output prefix: []
+Min warmup runs: [1]
+Min warmup runs duration (seconds): [0.5]
+Graph: [/data/local/tmp/mobilenet_v1_1.0_224.tflite]
+Input layers: []
+Input shapes: []
+Input value ranges: []
+Input layer values files: []
+Use legacy nnapi : [0]
+Allow fp16 : [0]
+Require full delegation : [0]
+Enable op profiling: [0]
+Max profiling buffer entries: [1024]
+CSV File to export profiling data to: []
+Enable platform-wide tracing: [0]
+#threads used for CPU inference: [1]
+Max number of delegated partitions : [0]
+Min nodes per partition : [0]
+External delegate path : []
+External delegate options : []
+Use gpu : [0]
+Allow lower precision in gpu : [1]
+Enable running quant models in gpu : [1]
+GPU backend : []
+Use Hexagon : [0]
+Hexagon lib path : [/data/local/tmp]
+Hexagon Profiling : [0]
+Use nnapi : [0]
+Use xnnpack : [0]
+Loaded model /data/local/tmp/mobilenet_v1_1.0_224.tflite
+The input model file size (MB): 16.9011
+Initialized session in 0.889ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: Initialized TensorFlow Lite runtime.
+count=6 first=98910 curr=89889 min=89158 max=98910 avg=91826 std=3340
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=50 first=89803 curr=89981 min=88848 max=90841 avg=89600.2 std=391
+
+Inference timings in us: Init: 889, First inference: 98910, Warmup (avg): 91826, Inference (avg): 89600.2
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Peak memory footprint (MB): init=1.28516 overall=27.582
+root@Dev:~# taskset f0 /data/local/tmp/benchmark_model \
+>   --graph=/data/local/tmp/mobilenet_v2_1.0_224_quant.tflite \
+> taskset f0 /data/local/tmp/benchmark_model   --graph=/data/local/tmp/mobilenet_v2_1.^C
+root@Dev:~# taskset f0 /data/local/tmp/benchmark_model \
+> --graph=/data/local/tmp/mobilenet_v1_1.0_224_quant.tflite \
+> --enable_op_profiling=true
+taskset: 执行 /data/local/tmp/benchmark_model 失败: 没有那个文件或目录
+root@Dev:~# taskset f0 /data/local/tmp/benchmark_model --graph=/data/local/tmp/mobilenet_v1_1.0_224_quant.tflite --enable_op_profiling=true
+taskset: 执行 /data/local/tmp/benchmark_model 失败: 没有那个文件或目录
+root@Dev:~# adb shell /data/local/tmp/benchmark_model \
+> --graph=/data/local/tmp/mobilenet_quant_v1_224.tflite \
+> --num_threads=1
+--enable_op_profiling=trueSTARTING!
+Duplicate flags: num_threads
+Min num runs: [50]
+Min runs duration (seconds): [1]
+Max runs duration (seconds): [150]
+Inter-run delay (seconds): [-1]
+Num threads: [1]
+Benchmark name: []
+Output prefix: []
+Min warmup runs: [1]
+Min warmup runs duration (seconds): [0.5]
+Graph: [/data/local/tmp/mobilenet_quant_v1_224.tflite]
+Input layers: []
+Input shapes: []
+Input value ranges: []
+Input layer values files: []
+Use legacy nnapi : [0]
+Allow fp16 : [0]
+Require full delegation : [0]
+Enable op profiling: [0]
+Max profiling buffer entries: [1024]
+CSV File to export profiling data to: []
+Enable platform-wide tracing: [0]
+#threads used for CPU inference: [1]
+Max number of delegated partitions : [0]
+Min nodes per partition : [0]
+External delegate path : []
+External delegate options : []
+Use gpu : [0]
+Allow lower precision in gpu : [1]
+Enable running quant models in gpu : [1]
+GPU backend : []
+Use Hexagon : [0]
+Hexagon lib path : [/data/local/tmp]
+Hexagon Profiling : [0]
+Use nnapi : [0]
+Use xnnpack : [0]
+ERROR: Could not open '/data/local/tmp/mobilenet_quant_v1_224.tflite'.
+Failed to mmap model /data/local/tmp/mobilenet_quant_v1_224.tflite
+Benchmarking failed.
+root@Dev:~# adb shell /data/local/tmp/benchmark_model --graph=/data/local/tmp/mobilenet_quant_v1_224.tflite --num_threads=1 --enable_op_profiling=true
+STARTING!
+Duplicate flags: num_threads
+Min num runs: [50]
+Min runs duration (seconds): [1]
+Max runs duration (seconds): [150]
+Inter-run delay (seconds): [-1]
+Num threads: [1]
+Benchmark name: []
+Output prefix: []
+Min warmup runs: [1]
+Min warmup runs duration (seconds): [0.5]
+Graph: [/data/local/tmp/mobilenet_quant_v1_224.tflite]
+Input layers: []
+Input shapes: []
+Input value ranges: []
+Input layer values files: []
+Use legacy nnapi : [0]
+Allow fp16 : [0]
+Require full delegation : [0]
+Enable op profiling: [1]
+Max profiling buffer entries: [1024]
+CSV File to export profiling data to: []
+Enable platform-wide tracing: [0]
+#threads used for CPU inference: [1]
+Max number of delegated partitions : [0]
+Min nodes per partition : [0]
+External delegate path : []
+External delegate options : []
+Use gpu : [0]
+Allow lower precision in gpu : [1]
+Enable running quant models in gpu : [1]
+GPU backend : []
+Use Hexagon : [0]
+Hexagon lib path : [/data/local/tmp]
+Hexagon Profiling : [0]
+Use nnapi : [0]
+Use xnnpack : [0]
+ERROR: Could not open '/data/local/tmp/mobilenet_quant_v1_224.tflite'.
+Failed to mmap model /data/local/tmp/mobilenet_quant_v1_224.tflite
+Benchmarking failed.
+root@Dev:~# adb shell /data/local/tmp/benchmark_model --graph=/data/local/tmp/mobilenet_v1_224_quant.tflite --num_threads=1 --enable_op_profiling=true
+STARTING!
+Duplicate flags: num_threads
+Min num runs: [50]
+Min runs duration (seconds): [1]
+Max runs duration (seconds): [150]
+Inter-run delay (seconds): [-1]
+Num threads: [1]
+Benchmark name: []
+Output prefix: []
+Min warmup runs: [1]
+Min warmup runs duration (seconds): [0.5]
+Graph: [/data/local/tmp/mobilenet_v1_224_quant.tflite]
+Input layers: []
+Input shapes: []
+Input value ranges: []
+Input layer values files: []
+Use legacy nnapi : [0]
+Allow fp16 : [0]
+Require full delegation : [0]
+Enable op profiling: [1]
+Max profiling buffer entries: [1024]
+CSV File to export profiling data to: []
+Enable platform-wide tracing: [0]
+#threads used for CPU inference: [1]
+Max number of delegated partitions : [0]
+Min nodes per partition : [0]
+External delegate path : []
+External delegate options : []
+Use gpu : [0]
+Allow lower precision in gpu : [1]
+Enable running quant models in gpu : [1]
+GPU backend : []
+Use Hexagon : [0]
+Hexagon lib path : [/data/local/tmp]
+Hexagon Profiling : [0]
+Use nnapi : [0]
+Use xnnpack : [0]
+ERROR: Could not open '/data/local/tmp/mobilenet_v1_224_quant.tflite'.
+Failed to mmap model /data/local/tmp/mobilenet_v1_224_quant.tflite
+Benchmarking failed.
+root@Dev:~# adb shell /data/local/tmp/benchmark_model --graph=/data/local/tmp/mobilenet_v1_1.0_224_quant.tflite --num_threads=1 --enable_op_profiling=true
+STARTING!
+Duplicate flags: num_threads
+Min num runs: [50]
+Min runs duration (seconds): [1]
+Max runs duration (seconds): [150]
+Inter-run delay (seconds): [-1]
+Num threads: [1]
+Benchmark name: []
+Output prefix: []
+Min warmup runs: [1]
+Min warmup runs duration (seconds): [0.5]
+Graph: [/data/local/tmp/mobilenet_v1_1.0_224_quant.tflite]
+Input layers: []
+Input shapes: []
+Input value ranges: []
+Input layer values files: []
+Use legacy nnapi : [0]
+Allow fp16 : [0]
+Require full delegation : [0]
+Enable op profiling: [1]
+Max profiling buffer entries: [1024]
+CSV File to export profiling data to: []
+Enable platform-wide tracing: [0]
+#threads used for CPU inference: [1]
+Max number of delegated partitions : [0]
+Min nodes per partition : [0]
+External delegate path : []
+External delegate options : []
+Use gpu : [0]
+Allow lower precision in gpu : [1]
+Enable running quant models in gpu : [1]
+GPU backend : []
+Use Hexagon : [0]
+Hexagon lib path : [/data/local/tmp]
+Hexagon Profiling : [0]
+Use nnapi : [0]
+Use xnnpack : [0]
+Loaded model /data/local/tmp/mobilenet_v1_1.0_224_quant.tflite
+The input model file size (MB): 4.27635
+Initialized session in 1.786ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+INFO: Initialized TensorFlow Lite runtime.
+count=10 first=53347 curr=50340 min=50340 max=53347 avg=50980.9 std=830
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=50 first=51100 curr=50745 min=50500 max=51488 avg=50922.5 std=197
+
+Inference timings in us: Init: 1786, First inference: 53347, Warmup (avg): 50980.9, Inference (avg): 50922.5
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Peak memory footprint (MB): init=2.11719 overall=8.08984
+Profiling Info for Benchmark Initialization:
+============================== Run Order ==============================
+	             [node type]	          [start]	  [first]	 [avg ms]	     [%]	  [cdf%]	  [mem KB]	[times called]	[Name]
+	         AllocateTensors	            0.000	    0.996	    0.996	100.000%	100.000%	   988.000	        1	AllocateTensors/0
+
+============================== Top by Computation Time ==============================
+	             [node type]	          [start]	  [first]	 [avg ms]	     [%]	  [cdf%]	  [mem KB]	[times called]	[Name]
+	         AllocateTensors	            0.000	    0.996	    0.996	100.000%	100.000%	   988.000	        1	AllocateTensors/0
+
+Number of nodes executed: 1
+============================== Summary by node type ==============================
+	             [Node type]	  [count]	  [avg ms]	    [avg %]	    [cdf %]	  [mem KB]	[times called]
+	         AllocateTensors	        1	     0.996	   100.000%	   100.000%	   988.000	        1
+
+Timings (microseconds): count=1 curr=996
+Memory (bytes): count=0
+1 nodes observed
+
+
+
+Operator-wise Profiling Info for Regular Benchmark Runs:
+============================== Run Order ==============================
+	             [node type]	          [start]	  [first]	 [avg ms]	     [%]	  [cdf%]	  [mem KB]	[times called]	[Name]
+	                 CONV_2D	            0.000	    2.625	    2.643	  5.193%	  5.193%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_0/Relu6]:0
+	       DEPTHWISE_CONV_2D	            2.644	    2.331	    2.091	  4.107%	  9.300%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_1_depthwise/Relu6]:1
+	                 CONV_2D	            4.735	    3.881	    3.905	  7.673%	 16.973%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_1_pointwise/Relu6]:2
+	       DEPTHWISE_CONV_2D	            8.642	    0.976	    0.993	  1.950%	 18.924%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_2_depthwise/Relu6]:3
+	                 CONV_2D	            9.635	    2.634	    2.650	  5.207%	 24.130%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_2_pointwise/Relu6]:4
+	       DEPTHWISE_CONV_2D	           12.286	    1.782	    1.747	  3.432%	 27.563%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_3_depthwise/Relu6]:5
+	                 CONV_2D	           14.034	    4.011	    4.020	  7.897%	 35.460%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_3_pointwise/Relu6]:6
+	       DEPTHWISE_CONV_2D	           18.054	    0.462	    0.465	  0.914%	 36.374%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_4_depthwise/Relu6]:7
+	                 CONV_2D	           18.520	    1.990	    2.006	  3.941%	 40.316%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_4_pointwise/Relu6]:8
+	       DEPTHWISE_CONV_2D	           20.527	    0.830	    0.844	  1.658%	 41.974%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_5_depthwise/Relu6]:9
+	                 CONV_2D	           21.371	    3.543	    3.438	  6.754%	 48.728%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_5_pointwise/Relu6]:10
+	       DEPTHWISE_CONV_2D	           24.810	    0.228	    0.231	  0.454%	 49.182%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_6_depthwise/Relu6]:11
+	                 CONV_2D	           25.041	    1.716	    1.722	  3.384%	 52.566%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_6_pointwise/Relu6]:12
+	       DEPTHWISE_CONV_2D	           26.765	    0.425	    0.428	  0.840%	 53.406%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_7_depthwise/Relu6]:13
+	                 CONV_2D	           27.193	    3.139	    3.145	  6.178%	 59.585%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_7_pointwise/Relu6]:14
+	       DEPTHWISE_CONV_2D	           30.338	    0.434	    0.447	  0.877%	 60.462%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_8_depthwise/Relu6]:15
+	                 CONV_2D	           30.785	    3.185	    3.154	  6.198%	 66.660%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_8_pointwise/Relu6]:16
+	       DEPTHWISE_CONV_2D	           33.941	    0.424	    0.433	  0.851%	 67.511%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_9_depthwise/Relu6]:17
+	                 CONV_2D	           34.374	    3.150	    3.161	  6.211%	 73.721%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_9_pointwise/Relu6]:18
+	       DEPTHWISE_CONV_2D	           37.536	    0.416	    0.416	  0.817%	 74.538%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_10_depthwise/Relu6]:19
+	                 CONV_2D	           37.952	    3.127	    3.148	  6.184%	 80.723%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_10_pointwise/Relu6]:20
+	       DEPTHWISE_CONV_2D	           41.101	    0.435	    0.435	  0.855%	 81.578%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_11_depthwise/Relu6]:21
+	                 CONV_2D	           41.536	    3.222	    3.154	  6.196%	 87.774%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_11_pointwise/Relu6]:22
+	       DEPTHWISE_CONV_2D	           44.691	    0.119	    0.119	  0.234%	 88.008%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_12_depthwise/Relu6]:23
+	                 CONV_2D	           44.811	    1.701	    1.702	  3.344%	 91.352%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_12_pointwise/Relu6]:24
+	       DEPTHWISE_CONV_2D	           46.514	    0.204	    0.205	  0.403%	 91.755%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_13_depthwise/Relu6]:25
+	                 CONV_2D	           46.719	    3.686	    3.803	  7.473%	 99.228%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_13_pointwise/Relu6]:26
+	         AVERAGE_POOL_2D	           50.525	    0.031	    0.028	  0.055%	 99.283%	     0.000	        1	[MobilenetV1/Logits/AvgPool_1a/AvgPool]:27
+	                 CONV_2D	           50.554	    0.352	    0.356	  0.700%	 99.983%	     0.000	        1	[MobilenetV1/Logits/Conv2d_1c_1x1/BiasAdd]:28
+	                 RESHAPE	           50.911	    0.002	    0.002	  0.003%	 99.986%	     0.000	        1	[MobilenetV1/Logits/SpatialSqueeze]:29
+	                 SOFTMAX	           50.913	    0.013	    0.007	  0.014%	100.000%	     0.000	        1	[MobilenetV1/Predictions/Reshape_1]:30
+
+============================== Top by Computation Time ==============================
+	             [node type]	          [start]	  [first]	 [avg ms]	     [%]	  [cdf%]	  [mem KB]	[times called]	[Name]
+	                 CONV_2D	           14.034	    4.011	    4.020	  7.897%	  7.897%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_3_pointwise/Relu6]:6
+	                 CONV_2D	            4.735	    3.881	    3.905	  7.673%	 15.570%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_1_pointwise/Relu6]:2
+	                 CONV_2D	           46.719	    3.686	    3.803	  7.473%	 23.043%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_13_pointwise/Relu6]:26
+	                 CONV_2D	           21.371	    3.543	    3.438	  6.754%	 29.797%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_5_pointwise/Relu6]:10
+	                 CONV_2D	           34.374	    3.150	    3.161	  6.211%	 36.008%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_9_pointwise/Relu6]:18
+	                 CONV_2D	           30.785	    3.185	    3.154	  6.198%	 42.205%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_8_pointwise/Relu6]:16
+	                 CONV_2D	           41.536	    3.222	    3.154	  6.196%	 48.401%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_11_pointwise/Relu6]:22
+	                 CONV_2D	           37.952	    3.127	    3.148	  6.184%	 54.585%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_10_pointwise/Relu6]:20
+	                 CONV_2D	           27.193	    3.139	    3.145	  6.178%	 60.764%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_7_pointwise/Relu6]:14
+	                 CONV_2D	            9.635	    2.634	    2.650	  5.207%	 65.970%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_2_pointwise/Relu6]:4
+
+Number of nodes executed: 31
+============================== Summary by node type ==============================
+	             [Node type]	  [count]	  [avg ms]	    [avg %]	    [cdf %]	  [mem KB]	[times called]
+	                 CONV_2D	       15	    42.001	    82.544%	    82.544%	     0.000	       15
+	       DEPTHWISE_CONV_2D	       13	     8.847	    17.387%	    99.931%	     0.000	       13
+	         AVERAGE_POOL_2D	        1	     0.028	     0.055%	    99.986%	     0.000	        1
+	                 SOFTMAX	        1	     0.006	     0.012%	    99.998%	     0.000	        1
+	                 RESHAPE	        1	     0.001	     0.002%	   100.000%	     0.000	        1
+
+Timings (microseconds): count=50 first=51074 curr=50724 min=50474 max=51462 avg=50897.5 std=197
+Memory (bytes): count=0
+31 nodes observed
+
+
+
+root@Dev:~# adb shell /data/local/tmp/benchmark_model --graph=/data/local/tmp/mobilenet_v1_1.0_224.tflite --num_threads=1 --enable_op_profiling=true
+error: no devices/emulators found
+root@Dev:~# adb shell /data/local/tmp/benchmark_model --graph=/data/local/tmp/mobilenet_v1_1.0_224.tflite --num_threads=1 --enable_op_profiling=true
+STARTING!
+Duplicate flags: num_threads
+Min num runs: [50]
+Min runs duration (seconds): [1]
+Max runs duration (seconds): [150]
+Inter-run delay (seconds): [-1]
+Num threads: [1]
+Benchmark name: []
+Output prefix: []
+Min warmup runs: [1]
+Min warmup runs duration (seconds): [0.5]
+Graph: [/data/local/tmp/mobilenet_v1_1.0_224.tflite]
+Input layers: []
+Input shapes: []
+Input value ranges: []
+Input layer values files: []
+Use legacy nnapi : [0]
+Allow fp16 : [0]
+Require full delegation : [0]
+Enable op profiling: [1]
+Max profiling buffer entries: [1024]
+CSV File to export profiling data to: []
+Enable platform-wide tracing: [0]
+#threads used for CPU inference: [1]
+Max number of delegated partitions : [0]
+Min nodes per partition : [0]
+External delegate path : []
+External delegate options : []
+Use gpu : [0]
+Allow lower precision in gpu : [1]
+Enable running quant models in gpu : [1]
+GPU backend : []
+Use Hexagon : [0]
+Hexagon lib path : [/data/local/tmp]
+Hexagon Profiling : [0]
+Use nnapi : [0]
+Use xnnpack : [0]
+Loaded model /data/local/tmp/mobilenet_v1_1.0_224.tflite
+INFO: Initialized TensorFlow Lite runtime.
+The input model file size (MB): 16.9011
+Initialized session in 48.585ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=4 first=240881 curr=91069 min=90448 max=240881 avg=129046 std=64580
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=50 first=90386 curr=108375 min=89689 max=108976 avg=103599 std=4926
+
+Inference timings in us: Init: 48585, First inference: 240881, Warmup (avg): 129046, Inference (avg): 103599
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Peak memory footprint (MB): init=1.14453 overall=27.6094
+Profiling Info for Benchmark Initialization:
+============================== Run Order ==============================
+	             [node type]	          [start]	  [first]	 [avg ms]	     [%]	  [cdf%]	  [mem KB]	[times called]	[Name]
+	         AllocateTensors	            0.000	    0.331	    0.331	100.000%	100.000%	     0.000	        1	AllocateTensors/0
+
+============================== Top by Computation Time ==============================
+	             [node type]	          [start]	  [first]	 [avg ms]	     [%]	  [cdf%]	  [mem KB]	[times called]	[Name]
+	         AllocateTensors	            0.000	    0.331	    0.331	100.000%	100.000%	     0.000	        1	AllocateTensors/0
+
+Number of nodes executed: 1
+============================== Summary by node type ==============================
+	             [Node type]	  [count]	  [avg ms]	    [avg %]	    [cdf %]	  [mem KB]	[times called]
+	         AllocateTensors	        1	     0.331	   100.000%	   100.000%	     0.000	        1
+
+Timings (microseconds): count=1 curr=331
+Memory (bytes): count=0
+1 nodes observed
+
+
+
+Operator-wise Profiling Info for Regular Benchmark Runs:
+============================== Run Order ==============================
+	             [node type]	          [start]	  [first]	 [avg ms]	     [%]	  [cdf%]	  [mem KB]	[times called]	[Name]
+	                 CONV_2D	            0.000	    2.551	    2.706	  2.614%	  2.614%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_0/Relu6]:0
+	       DEPTHWISE_CONV_2D	            2.709	    2.854	    3.326	  3.212%	  5.826%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_1_depthwise/Relu6]:1
+	                 CONV_2D	            6.037	    3.454	    3.988	  3.852%	  9.678%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_1_pointwise/Relu6]:2
+	       DEPTHWISE_CONV_2D	           10.028	    2.432	    2.564	  2.476%	 12.154%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_2_depthwise/Relu6]:3
+	                 CONV_2D	           12.595	    3.031	    3.539	  3.419%	 15.573%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_2_pointwise/Relu6]:4
+	       DEPTHWISE_CONV_2D	           16.137	    2.486	    2.916	  2.816%	 18.389%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_3_depthwise/Relu6]:5
+	                 CONV_2D	           19.055	    6.291	    6.937	  6.701%	 25.090%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_3_pointwise/Relu6]:6
+	       DEPTHWISE_CONV_2D	           25.995	    1.306	    1.306	  1.262%	 26.351%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_4_depthwise/Relu6]:7
+	                 CONV_2D	           27.303	    2.881	    3.433	  3.316%	 29.667%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_4_pointwise/Relu6]:8
+	       DEPTHWISE_CONV_2D	           30.737	    1.252	    1.470	  1.420%	 31.087%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_5_depthwise/Relu6]:9
+	                 CONV_2D	           32.209	    7.014	    8.194	  7.915%	 39.002%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_5_pointwise/Relu6]:10
+	       DEPTHWISE_CONV_2D	           40.406	    0.418	    0.494	  0.477%	 39.479%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_6_depthwise/Relu6]:11
+	                 CONV_2D	           40.901	    3.312	    3.933	  3.798%	 43.277%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_6_pointwise/Relu6]:12
+	       DEPTHWISE_CONV_2D	           44.835	    0.642	    0.748	  0.723%	 44.000%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_7_depthwise/Relu6]:13
+	                 CONV_2D	           45.585	    7.069	    8.021	  7.747%	 51.747%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_7_pointwise/Relu6]:14
+	       DEPTHWISE_CONV_2D	           53.608	    0.643	    0.755	  0.729%	 52.476%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_8_depthwise/Relu6]:15
+	                 CONV_2D	           54.364	    6.816	    7.878	  7.609%	 60.086%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_8_pointwise/Relu6]:16
+	       DEPTHWISE_CONV_2D	           62.245	    0.599	    0.691	  0.667%	 60.753%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_9_depthwise/Relu6]:17
+	                 CONV_2D	           62.937	    6.683	    7.708	  7.445%	 68.198%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_9_pointwise/Relu6]:18
+	       DEPTHWISE_CONV_2D	           70.647	    0.606	    0.696	  0.673%	 68.870%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_10_depthwise/Relu6]:19
+	                 CONV_2D	           71.345	    6.870	    7.951	  7.679%	 76.550%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_10_pointwise/Relu6]:20
+	       DEPTHWISE_CONV_2D	           79.298	    0.593	    0.695	  0.671%	 77.221%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_11_depthwise/Relu6]:21
+	                 CONV_2D	           79.994	    6.985	    8.070	  7.794%	 85.015%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_11_pointwise/Relu6]:22
+	       DEPTHWISE_CONV_2D	           88.067	    0.187	    0.224	  0.216%	 85.231%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_12_depthwise/Relu6]:23
+	                 CONV_2D	           88.291	    4.623	    5.355	  5.172%	 90.403%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_12_pointwise/Relu6]:24
+	       DEPTHWISE_CONV_2D	           93.649	    0.302	    0.354	  0.342%	 90.745%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_13_depthwise/Relu6]:25
+	                 CONV_2D	           94.003	    7.519	    8.605	  8.312%	 99.057%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_13_pointwise/Relu6]:26
+	         AVERAGE_POOL_2D	          102.612	    0.042	    0.048	  0.046%	 99.103%	     0.000	        1	[MobilenetV1/Logits/AvgPool_1a/AvgPool]:27
+	                 CONV_2D	          102.663	    0.853	    0.908	  0.877%	 99.980%	     0.000	        1	[MobilenetV1/Logits/Conv2d_1c_1x1/BiasAdd]:28
+	                 RESHAPE	          103.573	    0.003	    0.003	  0.003%	 99.983%	     0.000	        1	[MobilenetV1/Logits/SpatialSqueeze]:29
+	                 SOFTMAX	          103.577	    0.015	    0.017	  0.017%	100.000%	     0.000	        1	[MobilenetV1/Predictions/Reshape_1]:30
+
+============================== Top by Computation Time ==============================
+	             [node type]	          [start]	  [first]	 [avg ms]	     [%]	  [cdf%]	  [mem KB]	[times called]	[Name]
+	                 CONV_2D	           94.003	    7.519	    8.605	  8.312%	  8.312%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_13_pointwise/Relu6]:26
+	                 CONV_2D	           32.209	    7.014	    8.194	  7.915%	 16.226%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_5_pointwise/Relu6]:10
+	                 CONV_2D	           79.994	    6.985	    8.070	  7.794%	 24.020%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_11_pointwise/Relu6]:22
+	                 CONV_2D	           45.585	    7.069	    8.021	  7.747%	 31.768%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_7_pointwise/Relu6]:14
+	                 CONV_2D	           71.345	    6.870	    7.951	  7.679%	 39.447%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_10_pointwise/Relu6]:20
+	                 CONV_2D	           54.364	    6.816	    7.878	  7.609%	 47.057%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_8_pointwise/Relu6]:16
+	                 CONV_2D	           62.937	    6.683	    7.708	  7.445%	 54.501%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_9_pointwise/Relu6]:18
+	                 CONV_2D	           19.055	    6.291	    6.937	  6.701%	 61.202%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_3_pointwise/Relu6]:6
+	                 CONV_2D	           88.291	    4.623	    5.355	  5.172%	 66.374%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_12_pointwise/Relu6]:24
+	                 CONV_2D	            6.037	    3.454	    3.988	  3.852%	 70.226%	     0.000	        1	[MobilenetV1/MobilenetV1/Conv2d_1_pointwise/Relu6]:2
+
+Number of nodes executed: 31
+============================== Summary by node type ==============================
+	             [Node type]	  [count]	  [avg ms]	    [avg %]	    [cdf %]	  [mem KB]	[times called]
+	                 CONV_2D	       15	    87.220	    84.255%	    84.255%	     0.000	       15
+	       DEPTHWISE_CONV_2D	       13	    16.232	    15.680%	    99.935%	     0.000	       13
+	         AVERAGE_POOL_2D	        1	     0.047	     0.045%	    99.981%	     0.000	        1
+	                 SOFTMAX	        1	     0.017	     0.016%	    99.997%	     0.000	        1
+	                 RESHAPE	        1	     0.003	     0.003%	   100.000%	     0.000	        1
+
+Timings (microseconds): count=50 first=90332 curr=108304 min=89636 max=108917 avg=103535 std=4922
+Memory (bytes): count=0
+31 nodes observed
+
+
+
+root@Dev:~# adb shell /data/local/tmp/benchmark_model --graph=/data/local/tmp/squeezenet.tflite --num_threads=1 --enable_op_profiling=true
+STARTING!
+Duplicate flags: num_threads
+Min num runs: [50]
+Min runs duration (seconds): [1]
+Max runs duration (seconds): [150]
+Inter-run delay (seconds): [-1]
+Num threads: [1]
+Benchmark name: []
+Output prefix: []
+Min warmup runs: [1]
+Min warmup runs duration (seconds): [0.5]
+Graph: [/data/local/tmp/squeezenet.tflite]
+Input layers: []
+Input shapes: []
+Input value ranges: []
+Input layer values files: []
+Use legacy nnapi : [0]
+Allow fp16 : [0]
+Require full delegation : [0]
+Enable op profiling: [1]
+Max profiling buffer entries: [1024]
+CSV File to export profiling data to: []
+Enable platform-wide tracing: [0]
+#threads used for CPU inference: [1]
+Max number of delegated partitions : [0]
+Min nodes per partition : [0]
+External delegate path : []
+External delegate options : []
+Use gpu : [0]
+Allow lower precision in gpu : [1]
+Enable running quant models in gpu : [1]
+GPU backend : []
+Use Hexagon : [0]
+Hexagon lib path : [/data/local/tmp]
+Hexagon Profiling : [0]
+Use nnapi : [0]
+Use xnnpack : [0]
+Loaded model /data/local/tmp/squeezenet.tflite
+INFO: Initialized TensorFlow Lite runtime.
+The input model file size (MB): 5.00666
+Initialized session in 28.026ms.
+Running benchmark for at least 1 iterations and at least 0.5 seconds but terminate if exceeding 150 seconds.
+count=5 first=148253 curr=115236 min=114866 max=148253 avg=122241 std=13037
+
+Running benchmark for at least 50 iterations and at least 1 seconds but terminate if exceeding 150 seconds.
+count=50 first=117050 curr=137803 min=114841 max=139754 avg=126085 std=9885
+
+Inference timings in us: Init: 28026, First inference: 148253, Warmup (avg): 122241, Inference (avg): 126085
+Note: as the benchmark tool itself affects memory footprint, the following is only APPROXIMATE to the actual memory footprint of the model at runtime. Take the information at your discretion.
+Peak memory footprint (MB): init=1.13281 overall=26.0039
+Profiling Info for Benchmark Initialization:
+============================== Run Order ==============================
+	             [node type]	          [start]	  [first]	 [avg ms]	     [%]	  [cdf%]	  [mem KB]	[times called]	[Name]
+	         AllocateTensors	            0.000	    0.138	    0.138	100.000%	100.000%	     0.000	        1	AllocateTensors/0
+
+============================== Top by Computation Time ==============================
+	             [node type]	          [start]	  [first]	 [avg ms]	     [%]	  [cdf%]	  [mem KB]	[times called]	[Name]
+	         AllocateTensors	            0.000	    0.138	    0.138	100.000%	100.000%	     0.000	        1	AllocateTensors/0
+
+Number of nodes executed: 1
+============================== Summary by node type ==============================
+	             [Node type]	  [count]	  [avg ms]	    [avg %]	    [cdf %]	  [mem KB]	[times called]
+	         AllocateTensors	        1	     0.138	   100.000%	   100.000%	     0.000	        1
+
+Timings (microseconds): count=1 curr=138
+Memory (bytes): count=0
+1 nodes observed
+
+
+
+Operator-wise Profiling Info for Regular Benchmark Runs:
+============================== Run Order ==============================
+	             [node type]	          [start]	  [first]	 [avg ms]	     [%]	  [cdf%]	  [mem KB]	[times called]	[Name]
+	                 CONV_2D	            0.000	   26.029	   27.019	 21.442%	 21.442%	     0.000	        1	[conv1/Relu]:0
+	             MAX_POOL_2D	           27.023	    1.897	    2.087	  1.656%	 23.098%	     0.000	        1	[maxpool1/MaxPool]:1
+	                 CONV_2D	           29.113	    0.719	    0.800	  0.635%	 23.733%	     0.000	        1	[fire2/squeeze/Relu]:2
+	                 CONV_2D	           29.914	    0.463	    0.529	  0.420%	 24.152%	     0.000	        1	[fire2/e1x1/Relu]:3
+	                 CONV_2D	           30.444	    3.528	    3.897	  3.092%	 27.245%	     0.000	        1	[fire2/e3x3/Relu]:4
+	           CONCATENATION	           34.343	    0.201	    0.212	  0.169%	 27.413%	     0.000	        1	[fire2/concat]:5
+	                 CONV_2D	           34.558	    1.056	    1.100	  0.873%	 28.286%	     0.000	        1	[fire3/squeeze/Relu]:6
+	                 CONV_2D	           35.659	    0.470	    0.525	  0.417%	 28.703%	     0.000	        1	[fire3/e1x1/Relu]:7
+	                 CONV_2D	           36.186	    3.608	    3.869	  3.070%	 31.773%	     0.000	        1	[fire3/e3x3/Relu]:8
+	           CONCATENATION	           40.056	    0.187	    0.203	  0.161%	 31.934%	     0.000	        1	[fire3/concat]:9
+	                 CONV_2D	           40.261	    1.628	    1.790	  1.421%	 33.355%	     0.000	        1	[fire4/squeeze/Relu]:10
+	                 CONV_2D	           42.053	    1.554	    1.691	  1.342%	 34.696%	     0.000	        1	[fire4/e1x1/Relu]:11
+	                 CONV_2D	           43.746	   13.900	   15.076	 11.964%	 46.660%	     0.000	        1	[fire4/e3x3/Relu]:12
+	           CONCATENATION	           58.826	    0.365	    0.438	  0.348%	 47.008%	     0.000	        1	[fire4/concat]:13
+	             MAX_POOL_2D	           59.266	    1.168	    1.247	  0.989%	 47.997%	     0.000	        1	[maxpool4/MaxPool]:14
+	                 CONV_2D	           60.515	    0.796	    0.886	  0.703%	 48.701%	     0.000	        1	[fire5/squeeze/Relu]:15
+	                 CONV_2D	           61.403	    0.376	    0.417	  0.331%	 49.032%	     0.000	        1	[fire5/e1x1/Relu]:16
+	                 CONV_2D	           61.820	    3.293	    3.633	  2.883%	 51.914%	     0.000	        1	[fire5/e3x3/Relu]:17
+	           CONCATENATION	           65.455	    0.085	    0.086	  0.068%	 51.982%	     0.000	        1	[fire5/concat]:18
+	                 CONV_2D	           65.541	    1.209	    1.336	  1.060%	 53.042%	     0.000	        1	[fire6/squeeze/Relu]:19
+	                 CONV_2D	           66.879	    0.809	    0.904	  0.717%	 53.760%	     0.000	        1	[fire6/e1x1/Relu]:20
+	                 CONV_2D	           67.783	    8.341	    8.789	  6.975%	 60.735%	     0.000	        1	[fire6/e3x3/Relu]:21
+	           CONCATENATION	           76.575	    0.194	    0.144	  0.115%	 60.849%	     0.000	        1	[fire6/concat]:22
+	                 CONV_2D	           76.721	    1.980	    2.130	  1.690%	 62.540%	     0.000	        1	[fire7/squeeze/Relu]:23
+	                 CONV_2D	           78.853	    0.808	    0.903	  0.716%	 63.256%	     0.000	        1	[fire7/e1x1/Relu]:24
+	                 CONV_2D	           79.756	    8.130	    8.751	  6.944%	 70.200%	     0.000	        1	[fire7/e3x3/Relu]:25
+	           CONCATENATION	           88.509	    0.144	    0.154	  0.122%	 70.322%	     0.000	        1	[fire7/concat]:26
+	                 CONV_2D	           88.665	    2.376	    2.582	  2.049%	 72.371%	     0.000	        1	[fire8/squeeze/Relu]:27
+	                 CONV_2D	           91.248	    1.471	    1.502	  1.192%	 73.563%	     0.000	        1	[fire8/e1x1/Relu]:28
+	                 CONV_2D	           92.752	   13.352	   14.883	 11.811%	 85.374%	     0.000	        1	[fire8/e3x3/Relu]:29
+	           CONCATENATION	          107.638	    0.174	    0.192	  0.153%	 85.527%	     0.000	        1	[fire8/concat]:30
+	             MAX_POOL_2D	          107.832	    0.496	    0.548	  0.435%	 85.962%	     0.000	        1	[maxpool8/MaxPool]:31
+	                 CONV_2D	          108.382	    0.777	    0.879	  0.698%	 86.660%	     0.000	        1	[fire9/squeeze/Relu]:32
+	                 CONV_2D	          109.263	    0.335	    0.374	  0.296%	 86.957%	     0.000	        1	[fire9/e1x1/Relu]:33
+	                 CONV_2D	          109.637	    3.039	    3.351	  2.660%	 89.616%	     0.000	        1	[fire9/e3x3/Relu]:34
+	           CONCATENATION	          112.990	    0.052	    0.044	  0.035%	 89.651%	     0.000	        1	[fire9/concat]:35
+	                 CONV_2D	          113.035	   11.850	   12.908	 10.243%	 99.894%	     0.000	        1	[conv10/Relu]:36
+	         AVERAGE_POOL_2D	          125.946	    0.109	    0.116	  0.092%	 99.986%	     0.000	        1	[average_pooling2d/AvgPool]:37
+	                 RESHAPE	          126.062	    0.001	    0.002	  0.002%	 99.988%	     0.000	        1	[flatten/Reshape]:38
+	                 SOFTMAX	          126.065	    0.013	    0.015	  0.012%	100.000%	     0.000	        1	[softmax_tensor]:39
+
+============================== Top by Computation Time ==============================
+	             [node type]	          [start]	  [first]	 [avg ms]	     [%]	  [cdf%]	  [mem KB]	[times called]	[Name]
+	                 CONV_2D	            0.000	   26.029	   27.019	 21.442%	 21.442%	     0.000	        1	[conv1/Relu]:0
+	                 CONV_2D	           43.746	   13.900	   15.076	 11.964%	 33.406%	     0.000	        1	[fire4/e3x3/Relu]:12
+	                 CONV_2D	           92.752	   13.352	   14.883	 11.811%	 45.217%	     0.000	        1	[fire8/e3x3/Relu]:29
+	                 CONV_2D	          113.035	   11.850	   12.908	 10.243%	 55.460%	     0.000	        1	[conv10/Relu]:36
+	                 CONV_2D	           67.783	    8.341	    8.789	  6.975%	 62.435%	     0.000	        1	[fire6/e3x3/Relu]:21
+	                 CONV_2D	           79.756	    8.130	    8.751	  6.944%	 69.379%	     0.000	        1	[fire7/e3x3/Relu]:25
+	                 CONV_2D	           30.444	    3.528	    3.897	  3.092%	 72.472%	     0.000	        1	[fire2/e3x3/Relu]:4
+	                 CONV_2D	           36.186	    3.608	    3.869	  3.070%	 75.542%	     0.000	        1	[fire3/e3x3/Relu]:8
+	                 CONV_2D	           61.820	    3.293	    3.633	  2.883%	 78.424%	     0.000	        1	[fire5/e3x3/Relu]:17
+	                 CONV_2D	          109.637	    3.039	    3.351	  2.660%	 81.084%	     0.000	        1	[fire9/e3x3/Relu]:34
+
+Number of nodes executed: 40
+============================== Summary by node type ==============================
+	             [Node type]	  [count]	  [avg ms]	    [avg %]	    [cdf %]	  [mem KB]	[times called]
+	                 CONV_2D	       26	   120.509	    95.647%	    95.647%	     0.000	       26
+	             MAX_POOL_2D	        3	     3.880	     3.080%	    98.727%	     0.000	        3
+	           CONCATENATION	        8	     1.472	     1.168%	    99.895%	     0.000	        8
+	         AVERAGE_POOL_2D	        1	     0.115	     0.091%	    99.987%	     0.000	        1
+	                 SOFTMAX	        1	     0.015	     0.012%	    99.998%	     0.000	        1
+	                 RESHAPE	        1	     0.002	     0.002%	   100.000%	     0.000	        1
+
+Timings (microseconds): count=50 first=116983 curr=137724 min=114780 max=139670 avg=126011 std=9878
+Memory (bytes): count=0
+40 nodes observed
